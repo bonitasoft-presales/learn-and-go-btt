@@ -1,0 +1,47 @@
+{
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "2.0",
+  "properties" : [
+    {
+      "label" : "Left list values",
+      "name" : "leftListValues",
+      "type" : "text",
+      "bond" : "variable"
+    },
+    {
+      "label" : "Left list selection",
+      "name" : "leftListSelection",
+      "type" : "text",
+      "bond" : "variable"
+    },
+    {
+      "label" : "Right list values",
+      "name" : "rightListValues",
+      "type" : "text",
+      "bond" : "variable"
+    },
+    {
+      "label" : "Right list selection",
+      "name" : "rightListSelection",
+      "type" : "text",
+      "bond" : "variable"
+    },
+    {
+      "label" : "Right list ids",
+      "name" : "rightListIds",
+      "type" : "text",
+      "bond" : "variable"
+    }
+  ],
+  "id" : "customListTransferButtons",
+  "name" : "listTransferButtons",
+  "lastUpdate" : 1627031348581,
+  "template" : "@customListTransferButtons.tpl.html",
+  "controller" : "@customListTransferButtons.ctrl.js",
+  "description" : "Buttons for transferring elements between two lists",
+  "custom" : true,
+  "assets" : [ ],
+  "requiredModules" : [ ],
+  "type" : "widget",
+  "hasHelp" : false
+}
