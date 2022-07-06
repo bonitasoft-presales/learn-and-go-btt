@@ -167,7 +167,6 @@ class ProcurementRequestIT {
         await("Process is completed").until(instance, processInstanceCompleted());
         request = instance.getBusinessData("request", Request.class);
         assertEquals("Aborted", request.getStatus(), "Request status is aborted");
-        assertNull(request.getSelectedSupplier(), "No supplier is selected");
     }
 
     private UserTask getCompleteQuotationTaskBySupplier(BonitaTestToolkit toolkit, String supplierName,
